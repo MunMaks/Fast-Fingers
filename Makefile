@@ -1,6 +1,8 @@
 # Compiler settings
 CC = gcc
 CFLAGS = -Wall -Wextra -g
+LDFLAGS = -lSDL2
+
 
 # Directories setup
 SRC_DIR = src

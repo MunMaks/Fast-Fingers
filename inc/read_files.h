@@ -11,11 +11,9 @@
 
 #define MAX_LINE_LENGTH 1 << 10
 
-/**
- * @brief Read a file and return the content as a string
- */
-char *read_file(const char *filename);
 
+char *read_file(const char* const filename);
 
+FILE *open_file(const char *filename, const char *mode);
 
 #endif
